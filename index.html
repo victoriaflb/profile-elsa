@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="cardizinho">
+        <div class="card-cover">
+            <div class="card-header">
+                <img src="./assets/k7gztm8hjdu91.jpg" alt="elsa-photo">
+                <h1>Elsa de Arendelle</h1>
+                <h2>Rainha da Neve</h2>
+            </div>
+            <div class="card-main">
+                <div class="card-section active" id="about">
+                    <div class="card-content">
+                        <h4 class="card-title">
+                            about
+                        </h4>
+                        <p class="card-desc">
+                            A personagem Rainha da Neve, neutra mas de coração frio no conto de fadas original e vilã em
+                            inúmeras adaptações da personagem, provou ser difícil de adaptar para o cinema devido à sua
+                            representação transparente. Vários executivos de cinema, incluindo Walt Disney, tentaram
+                            desenvolver o personagem, e uma série de adaptações para o cinema.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-section" id="experience">
+                    <div class="card-content">
+                        <h4 class="card-title">
+                            experience
+                        </h4>
+                        <div class="card-work">
+                            <div class="card-item" data-work="2013">
+                                <div class="card-item-title">
+                                    Frozen Frozen - Uma Aventura Congelante
+                                </div>
+                                <div class="card-item-desc">
+                                    Acompanhada por um vendedor de gelo, a jovem e destemida princesa Anna parte em uma
+                                    jornada por perigosas montanhas de gelo na esperança de encontrar sua irmã, a rainha
+                                    Elsa, e acabar com a terrível maldição de inverno eterno, que está provocando o
+                                    congelamento do reino.
+                                </div>
+                            </div>
+                            <div class="card-item" data-work="2015">
+                                <div class="card-item-title">
+                                    Frozen - Febre Congelante
+                                </div>
+                                <div class="card-item-desc">
+                                    Elsa prepara uma festa de aniversário surpresa para Anna com a ajuda de Kristoff,
+                                    Sven e Olaf. O plano é despistar a aniversariante com uma "caça aos tesouros da
+                                    festa", e Elsa sai com a irmã pelo reino. Infelizmente, Elsa pega um resfriado e
+                                    começa a espirrar pequenos e adoráveis bonequinhos de neve. As criaturinhas logo
+                                    partem para destruir as decorações da festa, só que Kristoff tenta impedi-las antes
+                                    que as duas voltem. Será que a festa de Anna vai ser um sucesso?
+                                </div>
+                            </div>
+                            <div class="card-item" data-work="2017">
+                                <div class="card-item-title">
+                                    Aventura de Olaf
+                                </div>
+                                <div class="card-item-desc">
+                                    O reino de Arendelle se esvazia para o período de férias, então Anna e Elsa percebem
+                                    que não têm tradições familiares próprias. Por isso, Olaf parte na alegre missão de
+                                    levar para casa as melhores tradições e salvar o Natal.
+                                </div>
+                            </div>
+                            <div class="card-item" data-work="2020">
+                                <div class="card-item-title">
+                                    Frozen II
+                                </div>
+                                <div class="card-item-desc">
+                                    De volta à infância de Elsa e Anna, as duas garotas descobrem uma história do pai,
+                                    quando ainda era príncipe de Arendelle. Ele conta às meninas a história de uma
+                                    visita à floresta dos elementos, onde um acontecimento inesperado teria provocado a
+                                    separação dos habitantes da cidade com os quatro elementos fundamentais: ar, fogo,
+                                    terra e água. Esta revelação ajuda Elsa a compreender a origem de seus poderes.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-section" id="contact">
+                    <div class="card-content">
+                        <h4 class="card-title">
+                            contact
+                        </h4>
+                        <div class="card-contact-wrapper">
+                            <div class="card-contact">
+                                <i class="fas fa-map-marked-alt"></i>
+                                   Reino de Arendelle, Noruega.
+                            </div>
+                            <div class="card-contact">
+                                <i class="fas fa-phone-alt"></i>
+                                +809272561823
+                            </div>
+                            <div class="card-contact">
+                                <i class="fas fa-envelope"></i>
+                                elsa@arandelle.com
+                            </div>
+                            <button class="contact-me">
+                                contact me
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-social">
+                        <a href="https://www.facebook.com/DisneyFrozenBR/?brand_redir=482368755113431&locale=pt_BR"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/DisneyFrozen"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/disneyfrozen/"><i class="fab fa-instagram-square"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card-buttons">
+                    <button data-section="about" class="active" onclick="changePage(this,'about')">about</button>
+                    <button data-section="experience" onclick="changePage(this,'experience')">experience</button>
+                    <button data-section="contact" onclick="changePage(this,'contact')">contact</button>
+                </div>
+            </div>
+    
+    
+        </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
